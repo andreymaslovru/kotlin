@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab01</string>
+    <string name="button_add_plus">+</string>
+    <string name="button_add_minus">-</string>
+    <string name="button_add_fraction">/</string>
+    <string name="button_add_mult">*</string>
+    <string name="edit_hint">Введите число</string>
+    <string name="operation_result">RESULT: %1$f</string>
+    <string name="result_no">Result...</string>
+</resources>

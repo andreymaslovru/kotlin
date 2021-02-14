@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C3C3"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:autofillHints="@string/edit_hint"
+        android:background="#989898"
+        android:hint="@string/edit_hint"
+        android:inputType="numberDecimal"
+        android:shadowColor="#000000"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:autofillHints="@string/edit_hint"
+        android:background="#989898"
+        android:hint="@string/edit_hint"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#AEAEAE"
+        android:text="@string/result_no"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="40dp" />
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:baselineAligned="false"
+        android:onClick="myButtonClickPlus"
+        android:text="@string/button_add_plus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="myButtonClickMinus"
+        android:text="@string/button_add_minus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/myButton3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="myButtonClickFraction"
+        android:text="@string/button_add_fraction"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/myButton4"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="myButtonClickMult"
+        android:text="@string/button_add_mult"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp"
+        app:backgroundTint="#000000" />
+</LinearLayout>
